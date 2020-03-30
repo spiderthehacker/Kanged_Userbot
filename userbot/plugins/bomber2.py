@@ -6,10 +6,11 @@ from userbot.utils import admin_cmd
 @borg.on(admin_cmd("ntc_fast (.*)"))
 async def _(event):
     num=0
-    n=50
+    n=0
     input_str = event.pattern_match.group(1)
     if input_str:
-        num = int(input_str)
+        num = int(input_str[:10])
+        n = int(input_str[11:])
     else:
         await event.edit("Enter a number!")
         return
