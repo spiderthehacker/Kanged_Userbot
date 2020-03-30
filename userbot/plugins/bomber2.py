@@ -1,5 +1,5 @@
 """NTC Bomber custom plugin by @spider_encrypted
-Format .ntc_fast [phone number] [times]"""
+Format .bomb [phone number] [times]"""
 import asyncio
 import requests
 from userbot.utils import admin_cmd
