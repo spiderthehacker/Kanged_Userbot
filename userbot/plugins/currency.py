@@ -1,5 +1,4 @@
-"""Currency Converter Plugin for @UniBorg
-Syntax: .currency number from to"""
+"""command: .currency usd npr"""
 from telethon import events
 import asyncio
 from datetime import datetime
