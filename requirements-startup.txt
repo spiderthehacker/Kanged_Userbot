@@ -74,3 +74,4 @@ feedparser
 apscheduler
 spamwatch
 covid
+sample_config
