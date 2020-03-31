@@ -17,6 +17,10 @@
       "description": "Setting this to ANYTHING will enable environment variables.",
       "value": "ANYTHING"
     },
+    "ALIVE_NAME": {
+      "description": "Your Name To Show On Bot",
+      "value": ""
+    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
@@ -226,6 +230,12 @@
     },
     "TELE_GRAM_2FA_CODE": {
       "description": "Your Telegram 2FA code as a string",
+      "required": false
+    }
+  },
+  "TZ": {
+      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kathmandu",
       "required": false
     }
   },
